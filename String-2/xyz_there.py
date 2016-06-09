@@ -1,3 +1,5 @@
+# Tested 2016-06-08 21:38
+
 def xyz_there(str):
     if len(str) < 3:
         return False
