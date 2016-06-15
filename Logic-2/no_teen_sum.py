@@ -4,7 +4,7 @@ def no_teen_sum(a, b, c):
     sum = 0
     for x in a,b,c:
         sum = sum + fix_teen(x)
-return sum
+    return sum
 
 def fix_teen(n):
     if n is 15 or n is 16:
